@@ -1,4 +1,3 @@
-```markdown
 # HOWTO: Configure Fail2Ban on Immich with Nginx Proxy Manager
 
 ## Nginx Proxy Manager
@@ -107,6 +106,3 @@ Restart the Fail2Ban service.
   ```
 
 - **Verify Nginx Configuration**: Check the `fail2ban-deny.conf` in the `modules` folder. It should add IPs when banned and remove them when unbanned.
-```
-
-This `README.md` is now clean, organized, and ready to guide users through the process of configuring Fail2Ban with Nginx Proxy Manager for Immich.
